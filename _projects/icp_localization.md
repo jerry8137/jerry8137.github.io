@@ -7,25 +7,27 @@ img: /assets/img/localize.png
 # gh-badge: [star, fork, follow]
 category: work
 ---
-# SDC Localization Competition Report
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CsiVsvgvNqI?si=pSkhtjEzkfGH2GIK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2p4rqpfgzKw?si=y8z-y0asHj6vKI9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HZM-01POrGw?si=yXaS5YMNeGAVDvIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-[Scene1 Demo](https://youtu.be/CsiVsvgvNqI)\\
-[Scene2 Demo](https://youtu.be/2p4rqpfgzKw)\\
-[Scene3 Demo](https://youtu.be/HZM-01POrGw)
 
-1. Pipeline
-主要利用ICP,用GPS當第一次alignment的initial guess ,initial yaw 用掃描360度的方式去
-找alignment score 好的,接著用上一次的結果當initial guess ,與上一次作業主要不同的是
-有使用pcl::passthroughfilter 可以把地板和太遠的點去掉,也可以加速運算。
-2. Contribution
-    1. 用pcl::passthroughfilter 或ProgressiveMorphologicalFilter 去除地板不必要的feature
-    2. Competition 2 在長直線上ICP 不容易align 時,用passthrough filter 去掉前後y方向沒有用的
-點
-    3. ICP 的 setmaxcorrespondence 要設小一點,尤其是competition 1 中間的時候,車右邊有些
-點超出了map ,會把整體拉偏,參數設小之後ICP會忽略這些點。
-3. Problem and solution
-    1. Competition1 中間車右邊有些點超出了map ,會把整體拉偏,將setmaxcorrespondence設
-小至1即可解決。
-    1. Competition2 y方向feature 太少,一開始一直走錯方向,將voxel filter關掉,且用
-passthrough filter 切掉前後的點,留下較多左右,牆壁上的features。
+## Pipeline: 
+
+The main approach used is ICP, where GPS is used as the initial guess for the first alignment, and initial yaw is scanned 360 degrees to find a good alignment score. Then, the previous result is used as the initial guess, and the main difference from the previous work is the use of `pcl::passthroughfilter` to remove the floor and faraway points, which can also speed up the computation.
+
+## Contribution:
+
+Use `pcl::passthroughfilter` or ProgressiveMorphologicalFilter to remove unnecessary features from the floor.
+In Competition 2, when ICP is not easy to align on a long straight line, use passthrough filter to remove the useless points in the front and back y-direction.
+Set the max correspondence of ICP to a smaller value, especially in Competition 1, where some points on the right side of the car exceed the map and cause the overall alignment to deviate. After setting the parameter to a smaller value, ICP will ignore these points.
+
+## Problem and solution:
+
+- In Competition 1, some points on the right side of the car exceed the map and cause the overall alignment to deviate. Setting the max correspondence to a smaller value, such as 1, can solve this problem.
+
+- In Competition 2, there are too few features in the y-direction, and the car keeps going in the wrong direction. Turning off the voxel filter and using passthrough filter to cut off the front and back points can leave more features on the left and right walls.

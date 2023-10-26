@@ -12,9 +12,7 @@ category: work
 Implemented with C++ as a final project of Object Oriented Programming course.
 ## [Demo Video](https://youtu.be/8ZYwSwc765c)
 
-{% include video.html path="https://youtu.be/8ZYwSwc765c" class="img-fluid rounded z-depth-1" %}
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8ZYwSwc765c?si=TWnhmYgZ4t5J3TbR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ![](/assets/img/tb/1.jpg)
 ![](/assets/img/tb/2.jpg)
