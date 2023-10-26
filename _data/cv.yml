@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Chun-Yu (Jerry) Hou
     - name: Date of Birth
-      value: 14th March 1879
+      value: 6th September 1999
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.Sc. in Electrical and Computer Engineering
+      institution: National Yang Ming Chiao Tung University, Taiwan
+      year: 2023
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: B.Sc. in Electrical and Computer Engineering
+      institution: National Yang Ming Chiao Tung University, Taiwan
+      year: 2022
       description:
         - Description 1.
         - Description 2.

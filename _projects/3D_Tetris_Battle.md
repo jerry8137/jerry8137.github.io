@@ -11,6 +11,9 @@ category: work
 
 Implemented with C++ as a final project of Object Oriented Programming course.
 ## [Demo Video](https://youtu.be/8ZYwSwc765c)
+
+{% include figure.html path="assets/img/tb/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
 ![](/assets/img/tb/1.jpg)
 ![](/assets/img/tb/2.jpg)
 ![](/assets/img/tb/3.jpg)
