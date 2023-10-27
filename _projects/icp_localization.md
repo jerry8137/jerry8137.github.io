@@ -5,7 +5,7 @@ description: Midterm Project of Self-Driving Car Course
 img: /assets/img/localize.png
 # gh-repo: daattali/beautiful-jekyll
 # gh-badge: [star, fork, follow]
-category: work
+category: undergrad
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CsiVsvgvNqI?si=pSkhtjEzkfGH2GIK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

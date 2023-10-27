@@ -5,7 +5,7 @@ description: Sensor Rack Design and Build
 img: /assets/img/lidar_free.png
 # gh-repo: daattali/beautiful-jekyll
 # gh-badge: [star, fork, follow]
-category: work
+category: grad
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GfDC2sZmMmM?si=znjMFNsgMp4qZZi5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

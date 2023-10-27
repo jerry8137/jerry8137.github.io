@@ -4,7 +4,7 @@ title: Object Detection and Localization by Apriltag
 description: NYCU Human Centric Computing Course Final Competition
 img: /assets/img/lidar.jpg
 # gh-repo: KaiYin77/Localization_by_Apriltag
-category: work
+category: undergrad
 ---
 
 # Localization by Apriltag

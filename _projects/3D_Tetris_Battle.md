@@ -6,7 +6,7 @@ img: /assets/img/tb.jpg
 # thumbnail-img: /assets/img/tb.jpg
 # gh-repo: daattali/beautiful-jekyll
 # gh-badge: [star, fork, follow]
-category: work
+category: undergrad
 ---
 
 Implemented with C++ as a final project of Object Oriented Programming course.
