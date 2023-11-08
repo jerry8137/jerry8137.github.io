@@ -30,7 +30,7 @@
       "area": "Electrical and Computer Engineering",
       "studyType": "Master of Science",
       "startDate": "2022-09",
-      "endDate": "2023-10",
+      "endDate": "2023-08",
       "score": "4.08/4.3"
     },
     {
@@ -38,7 +38,7 @@
       "area": "Electrical and Computer Engineering",
       "studyType": "Bachelor of Science",
       "startDate": "2018-09",
-      "endDate": "2022-10",
+      "endDate": "2022-06",
       "score": "3.93/4.3"
     }
   ],
@@ -49,14 +49,14 @@
       "releaseDate": "2023-09-08",
       "url": "https://doi.org/10.1109/OJITS.2023.3312660",
       "name": "Extrinsic and Temporal Calibration of Automotive Radar and 3D LiDAR in Factory and On-Road Calibration Settings",
-      "publisher": "Chun-Yu Hou, Chieh-Chih Wang, and Wen-Chieh Lin",
+      "publisher": "Chia-Le Lee, Chun-Yu Hou, Chieh-Chih Wang, and Wen-Chieh Lin",
       "summary": "IEEE Open Journal of Intelligent Transportation Systems, 2023"
     },
     {
       "releaseDate": "2023-10-01",
       "url": "",
       "name": "Automotive Radar Missing Dimension Reconstruction from Motion",
-      "publisher": "Chia-Le Lee, Chun-Yu Hou, Chieh-Chih Wang, and Wen-Chieh Lin",
+      "publisher": "Chun-Yu Hou, Chieh-Chih Wang, and Wen-Chieh Lin",
       "summary": "IROS 2023"
     }
   ],
