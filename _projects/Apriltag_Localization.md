@@ -11,6 +11,8 @@ category: undergrad
 
 ## [Demo Video](https://youtu.be/BF3L9FirbP4)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BF3L9FirbP4?si=HAzF6W5fGLqNlKhb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ===
 
 Team MOLA's Members
@@ -127,11 +129,3 @@ zc = cv_depthimage2[int(y_chair)][int(x_chair)] - 200
 if Dist_Cam_Umbrella < 2.3 and Dist_Cam_Umbrella > 1.4 :
     publish_object_location(object_position, depth_img, org, Umbrella)
 ```
-
-How we work together
----
-
-###### 侯俊宇: `調參鬼才` `outlier remove` `global transform` `all pyrobot related` `調整time error`
-###### 呂宗翰: `parameter adjustment` `subscriber & publisher setting` `transform matrix setting`
-###### 李謙熙: `調整bike相關參數` `調整bag的播放來找bug`
-###### 洪愷尹: `cuda環境建置` `調參怪獸` `工人智慧` `維護Github` `Shell Script for better development` `Other Method we’ve tried`
