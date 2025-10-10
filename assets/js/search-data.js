@@ -44,35 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/al-folio/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/al-folio/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -440,75 +412,76 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/al-folio/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-paper-automotive-radar-missing-dimension-reconstruction-from-motion-has-been-accepted-for-publication-at-iros-2023",
+          title: 'Our paper “Automotive Radar Missing Dimension Reconstruction from Motion” has been accepted for...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-received-the-m-s-degree-in-electrical-and-computer-engineering-at-nycu-taiwan-great-thanks-to-my-advisors-prof-bob-wang-and-prof-steve-lin-for-their-guidance-and-support",
+          title: 'Received the M.S. degree in electrical and computer engineering at NYCU, Taiwan. Great...',
+          description: "",
+          section: "News",},{id: "news-our-paper-extrinsic-and-temporal-calibration-of-automotive-radar-and-3-d-lidar-in-factory-and-on-road-calibration-settings-has-been-accepted-for-publication-at-ieee-open-journal-of-intelligent-transportation-systems-oj-its",
+          title: 'Our paper “Extrinsic and Temporal Calibration of Automotive Radar and 3-D LiDAR in...',
+          description: "",
+          section: "News",},{id: "news-started-working-at-industrial-technology-research-institute-mechanical-and-mechatronics-systems-lab-as-a-self-driving-car-r-amp-amp-d-engineer",
+          title: 'Started working at Industrial Technology Research Institute, Mechanical and Mechatronics Systems Lab as...',
+          description: "",
+          section: "News",},{id: "news-bts-i-am-now-a-grad-student-at-cmu-mrsd-doing-fantastic-projects",
+          title: 'BTS! I am now a grad student at CMU MRSD doing fantastic projects....',
+          description: "",
+          section: "News",},{id: "news-paper-accepted-by-ieee-transactions-on-radar-systems",
+          title: 'Paper accepted by IEEE Transactions on Radar Systems',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/al-folio/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+              window.location.href = "/al-folio/news/trs_pub/";
+            },},{id: "projects-3d-tetris-battle",
+          title: '3D Tetris Battle',
+          description: "Final Project of Object Oriented Programming",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/al-folio/projects/3D_Tetris_Battle/";
+            },},{id: "projects-object-detection-and-localization-by-apriltag",
+          title: 'Object Detection and Localization by Apriltag',
+          description: "NYCU Human Centric Computing Course Final Competition",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/al-folio/projects/Apriltag_Localization/";
+            },},{id: "projects-self-driving-car-lidar-localization",
+          title: 'Self-Driving Car LiDAR Localization',
+          description: "Midterm Project of Self-Driving Car Course",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/al-folio/projects/icp_localization/";
+            },},{id: "projects-lidar-free-subsystem-project",
+          title: 'LiDAR-free Subsystem Project',
+          description: "Sensor Rack Design and Build",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/al-folio/projects/lidar_free_subsystem/";
+            },},{id: "projects-thermal-image-object-detection",
+          title: 'Thermal Image Object Detection',
+          description: "FLIR Thermal dataset",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/al-folio/projects/thermal_object_detection/";
+            },},{id: "projects-human-tracking-and-following-using-uav",
+          title: 'Human Tracking and Following using UAV',
+          description: "Where&#39;s Wally? Let UAV help you.",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/9_project/";
+              window.location.href = "/al-folio/projects/uav_tracking_and_following/";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6A%65%72%72%79%68%6F%75@%61%6E%64%72%65%77.%63%6D%75.%65%64%75", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/jerry8137", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/chun-yu-hou", "_blank");
         },
       },{
         id: 'social-rss',
@@ -522,14 +495,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://scholar.google.com/citations?user=BuzYkmYAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
