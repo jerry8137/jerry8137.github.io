@@ -1,115 +1,55 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@ARTICLE{11143541,
+  author={Hou, Chun-Yu and Wang, Chieh-Chih and Lin, Wen-Chieh},
+  journal={IEEE Transactions on Radar Systems}, 
+  title={Improving Height Estimation for Stationary Targets With 3-D Automotive Radar: From Uncertainty Analysis to Temporal Filtering}, 
+  year={2025},
+  volume={3},
+  number={},
+  pages={1195-1206},
+  keywords={Radar;Doppler radar;Doppler effect;Three-dimensional displays;Accuracy;Estimation;Automotive engineering;Uncertainty;Radar measurements;Filtering;3-D automotive radar;3-D reconstruction;Advanced Driver Assistance Systems (ADAS);autonomous driving;radar perception},
+  abbr={IEEE TRS},
+  preview={trs.png},
   selected={true},
-  inspirehep_id = {3255}
-}
+  doi={10.1109/TRS.2025.3603807}}
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
+@INPROCEEDINGS{radar_reconstruct,
+  author={Hou, Chun-Yu and Wang, Chieh-Chih and Lin, Wen-Chieh},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Automotive Radar Missing Dimension Reconstruction from Motion}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={11226-11232},
+  selected={true},
+  preview={radar_missing_dim_demo.gif},
+  video={https://youtu.be/ExOiUv1MEeY},
+  abbr={IROS},
+  paper={https://doi.org/10.1109/IROS55552.2023.10342167},
+  poster={IROS2023_Poster_Jerry_compressed.pdf},
+  abstract={Automotive radars have been reliably used in most assisted and autonomous driving systems due to their robustness to extreme weather conditions. With radial velocity measurements from automotive radars, moving targets such as cars, trucks, and buses can be tracked robustly. However, due to the lack of elevation angles in measurements from automotive radars, stationary targets at different heights, such as maintenance holes and bridges, cannot be distinguished. Most autonomous systems rely on sensor fusion or ignore stationary targets to tackle the problem of missing the elevation angle dimension, which derives safety issues. We propose a simple yet effective approach to estimate the elevation angles of stationary targets from relative velocity and radial velocity measurements from an automotive radar. In contrast to structure from motion in computer vision, we utilize the instantaneous velocity generated from the motion of the ego vehicle. The radial velocity of each target is the projection of relative velocity onto the radial direction from radar to target. The radial velocity of each target can be inferred given the target's azimuth, elevation angle, and relative velocity. Accordingly, the elevation angle of each stationary target can be uniquely calculated given the velocity of radar and the target's azimuth and radial velocity measurements. The radar's velocity is estimated with the existing radar odometry algorithm and IMU. The proposed method is verified with real-world data. We evaluate the system's performance with a pre-built point cloud map and a good localization module in a real-world scenario. The proposed elevation angle reconstruction can reach a 1.41-degree mean error and standard deviation of 0.6 degrees in elevation angle.},
+  keywords={},
+  doi={10.1109/IROS55552.2023.10342167},
+  ISSN={2153-0866},
+  month={Oct},}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+@ARTICLE{10246160,
+  author={Lee, Chia-Le and Hou, Chun-Yu and Wang, Chieh-Chih and Lin, Wen-Chieh},
+  journal={IEEE Open Journal of Intelligent Transportation Systems}, 
+  title={Extrinsic and Temporal Calibration of Automotive Radar and 3-D LiDAR in Factory and On-Road Calibration Settings}, 
+  year={2023},
+  volume={4},
+  number={},
+  pages={708-719},
+  paper={https://doi.org/10.1109/OJITS.2023.3312660},
+  abbr={IEEE OJITS},
+  abstract={While automotive radars are widely used in ADAS and autonomous driving, extrinsic and temporal calibration of automotive radars with other sensors is still daunting due to the sparsity, uncertainty, and missing elevation angles of automotive radar measurements. We propose a target-based calibration approach of 3D automotive radar and 3D LiDAR that performs extrinsic and temporal calibration in both factory and on-road settings. In factory calibration settings, a map is built with precise target poses; target trajectories are estimated based on map-based target localization in which the accuracy of both nearby and faraway target pose estimates can be ensured. The spatial and temporal relationships between radar and LiDAR measurements are established with target trajectories to accomplish extrinsic and temporal calibration. The proposed data collection procedure provides sufficient motion for analyzing time delay between sensors and can significantly reduce the data collection effort and time. There is 52.3% distance error reduction after time delay compensation in the experiment, which shows the improvements of temporal calibration. In on-road calibration settings, the metal objects with semantic labels, such as traffic signs, are selected as calibration targets. Although there could be insufficient correspondences to infer the missing dimension of planar radar for six DoF extrinsic calibration as demonstrated in factory calibration settings, the three extrinsic parameters and the time delay are shown still to be accurate. We validated the proposed method using the nuScenes datasets, which provide sensor measurements, poses, and HD map. With twenty-two data logs, each has over 1000 correspondences, the result of extrinsic parameters reaches centimeter-level accuracy compared with the offered benchmark. The time delay compensation improves 1 meter error for radar tracking in a 20 m/s vehicle case and improves mapping quality in real world data.},
+  keywords={},
+  doi={10.1109/OJITS.2023.3312660},
+  ISSN={2687-7813},
+  selected={true},
+  month={},
+  preview={calibration.png}}
