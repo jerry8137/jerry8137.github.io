@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jerry8137
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - jerry8137/multi-radar-inertial-odometry
+  - KaiYin77/Preffusion
+  - jerry8137/nvim.config
