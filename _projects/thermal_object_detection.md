@@ -3,7 +3,7 @@ layout: page
 title: Thermal Image Object Detection
 description: FLIR Thermal dataset
 img: assets/img/thermal.png
-importance: 1
+importance: 3
 # gh-repo: daattali/beautiful-jekyll
 # gh-badge: [star, fork, follow]
 category: academic

@@ -3,7 +3,7 @@ layout: page
 title: Self-Driving Car LiDAR Localization
 description: Midterm Project of Self-Driving Car Course
 img: assets/img/localize.png
-importance: 1
+importance: 2
 # gh-repo: daattali/beautiful-jekyll
 # gh-badge: [star, fork, follow]
 category: academic

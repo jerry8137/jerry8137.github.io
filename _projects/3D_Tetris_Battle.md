@@ -3,7 +3,7 @@ layout: page
 title: 3D Tetris Battle
 description: Final Project of Object Oriented Programming
 img: /assets/img/tb.jpg
-importance: 1
+importance: 2
 category: academic
 ---
 
