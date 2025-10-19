@@ -18,11 +18,6 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 My research interests center around **Robot Perception** and **State Estimation** with a strong drive to develop impactful robotic systems. This ambition has been shaped by my unwavering belief in the potential of robotics to enhance our world.
