@@ -423,11 +423,21 @@ ninja.data = [{
           description: "Final Project of Object Oriented Programming",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3D_Tetris_Battle/";
+            },},{id: "projects-3d-gaussian-splatting",
+          title: '3D Gaussian Splatting',
+          description: "3D Gaussian Splatting Reconstruction in Driving Scenario",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3dgs/";
             },},{id: "projects-object-detection-and-localization-by-apriltag",
           title: 'Object Detection and Localization by Apriltag',
           description: "NYCU Human Centric Computing Course Final Competition",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Apriltag_Localization/";
+            },},{id: "projects-rviz-default-plugin-go-crazy",
+          title: 'Rviz Default Plugin Go Crazy',
+          description: "Using Rviz default plugins for fancy AV demo",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/demo_visualization/";
             },},{id: "projects-self-driving-car-lidar-localization",
           title: 'Self-Driving Car LiDAR Localization',
           description: "Midterm Project of Self-Driving Car Course",
