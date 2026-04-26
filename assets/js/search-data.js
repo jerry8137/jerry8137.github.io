@@ -418,7 +418,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/trs_pub/";
-            },},{id: "projects-3d-tetris-battle",
+            },},{id: "news-excited-to-share-that-i-am-joining-moss-robotics-this-summer-as-a-perception-engineer-intern",
+          title: 'Excited to share that I am joining Moss robotics this summer as a...',
+          description: "",
+          section: "News",},{id: "projects-3d-tetris-battle",
           title: '3D Tetris Battle',
           description: "Final Project of Object Oriented Programming",
           section: "Projects",handler: () => {
@@ -438,6 +441,11 @@ ninja.data = [{
           description: "Using Rviz default plugins for fancy AV demo",
           section: "Projects",handler: () => {
               window.location.href = "/projects/demo_visualization/";
+            },},{id: "projects-firesense",
+          title: 'FireSense',
+          description: "Thermal + radar SLAM for firefighters @ CMU MRSD",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/firesense/";
             },},{id: "projects-self-driving-car-lidar-localization",
           title: 'Self-Driving Car LiDAR Localization',
           description: "Midterm Project of Self-Driving Car Course",
