@@ -5,6 +5,7 @@ description: Radar loclization system @ ITRI
 img: /assets/img/radar_slam.png
 importance: 1
 category: industry
+selected: true
 ---
 
 Throwing back to my time at ITRI, where I led a cross-functional team developing a 4D radar-inertial SLAM system on LiDAR maps.

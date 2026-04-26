@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>Pittsburgh, PA</p>
 
+selected_projects: true # includes project cards marked with "selected: true" in their front matter
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 

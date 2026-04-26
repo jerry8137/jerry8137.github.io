@@ -5,6 +5,7 @@ description: 3D Gaussian Splatting Reconstruction in Driving Scenario
 img: /assets/img/tb/3dgs.png
 importance: 1
 category: industry
+selected: true
 ---
 
 I'm incredibly proud to share the deployment of the 3D Gaussian Splatting for Visual Localization project, the very first applied computer vision project I initiated during my time at ITRI.

@@ -1,0 +1,10 @@
+{% assign selected_projects = site.projects | where: "selected", true | sort: "importance" %}
+{% if selected_projects.size > 0 %}
+  <div class="projects">
+    <div class="row row-cols-1 row-cols-md-3">
+      {% for project in selected_projects %}
+        {% include projects.liquid %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
